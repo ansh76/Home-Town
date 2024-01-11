@@ -59,9 +59,14 @@ header .left-head nav .menu-bar {
     margin-top: 20px;
     margin-left: 2rem;
     font-size: 1.4rem;
-
+       
 }
-
+#icon{
+    margin-left: -10%;
+    margin-bottom: -10%;
+    width: 150px;
+    height: 60px;
+}
 header .left-head nav .menu-bar ul {
     display: flex;
     gap: 3rem;
@@ -152,18 +157,20 @@ header .right-head a:last-child:hover {
 }
 
 .home .home-image .home-text a {
-    color: #000;
+    color: #fff;
     font-weight: 600;
     font-size: 1.2rem;
-    border: 2px solid #f9532d;;
+    border: 2px solid #f9532d;
     padding: .5rem 1.5rem;
     border-radius: .5rem;
+    background-color: #1F252E;
 }
 
 .home .home-image .home-text a:hover {
-    background: #1F252E;
+    background: #f9532d;
     color: white;
     font-weight: 400;
+    border: 1px solid #1F252E;
 }
 
 .home .home-image .home-bottom {
@@ -206,6 +213,7 @@ header .right-head a:last-child:hover {
 .container .box p {
     color: #f9532d;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .container .box a {
@@ -220,7 +228,9 @@ header .right-head a:last-child:hover {
 
 
 .container .box a:hover {
-    background: #a7abff;
+    background: #1F252E;
+    color:  #f9532d;
+    font-weight: 600;
 }
 
 .con-section {
@@ -583,7 +593,7 @@ header .right-head a:last-child:hover {
     border: none;
     outline: none;
     text-transform: none;
-    color: var(--white);
+    color: white;
     padding: 0 .8rem;
     font-size: 1.2rem;
 }
@@ -600,7 +610,9 @@ header .right-head a:last-child:hover {
 }
 
 .footer .footer-box .box .subscribe form button:hover {
-    background: #a7abff;
+    background: whitesmoke;
+    color:  #f9532d;
+    font-weight: 900;
 }
 
 
@@ -970,8 +982,8 @@ header .right-head a:last-child:hover {
         grid-template-columns: 1fr;
     }
 }
-.copyright .fa{
-    color: rgb(255, 0, 43);;
+.copyright .bx{
+    color: rgb(255, 0, 43);
 }
                
 
