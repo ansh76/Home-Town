@@ -762,7 +762,7 @@ header .right-head a:last-child:hover {
         height: 100%;
     }
 
-    nav.active {
+    header .left-head nav.active {
         position: fixed;
         top: 0;
         left: 0;
@@ -770,7 +770,7 @@ header .right-head a:last-child:hover {
         height: 100vh;
         z-index: 10;
         display: block;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, .5);
         backdrop-filter: blur(5px);
         animation: navigation .3s ease-out;
     }
@@ -797,7 +797,7 @@ header .right-head a:last-child:hover {
     }
 
     header .left-head nav .close img:hover {
-        background: var(--black);
+        background: #f9532d;
         padding: .5rem;
         border-radius: 5px;
     }
@@ -820,11 +820,11 @@ header .right-head a:last-child:hover {
     }
     header .left-head nav .menu-bar ul li a {
         font-size: 2rem;
-        color: var(--white);
+        color: white;
     }
 
     header .left-head nav .menu-bar ul li a:hover {
-        color: #bdbcbc;
+        color: #f9532d;
     }
 
     nav .button .main-button {
@@ -849,21 +849,28 @@ header .right-head a:last-child:hover {
         display: none;
     }
 
-    .login-button, .create-button {
-        background: var(--white);
+    .login-button{
+        background: transparent;
         width: 100%;
         flex: 220px;
         padding: 1.5rem;
-        border: 2px solid var(--white);
+        border: 2px solid white;
+    }
+    .create-button {
+        background: transparent;
+        width: 100%;
+        flex: 220px;
+        padding: 1.5rem;
+        border: 2px solid white;
     }
 
     header .left-head nav .button .login-button {
-        background: none;
-        border: 2px solid var(--white);
+        background: transparent;
+        border: 2px solid white;
     }
 
     header .left-head nav .button .login-button a {
-        color: var(--white);
+        color: white;
     }
 
     header .left-head nav .button .login-button a,header .left-head nav .button .create-button a {
@@ -874,20 +881,21 @@ header .right-head a:last-child:hover {
     }
 
     header .left-head nav .button .login-button:hover {
-        background: var(--white);
+        background:#f9532d;
     }
 
     header .left-head nav .button .create-button:hover {
-        background: none;
+        background:#f9532d;
+        color: white;
        
     }
 
     header .left-head nav .button .login-button:hover a {
-        color: var(--black);
+        color: white;
     }
 
     header .left-head nav .button .create-button:hover a {
-        color: var(--white);
+        color: white;
     }
 
     
@@ -1045,3 +1053,12 @@ header .right-head a:last-child:hover {
 }
 
 /* Your existing styling... */
+.menu .bx{
+    color: white;
+    font-size: 25px;
+}
+.close .bx{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
