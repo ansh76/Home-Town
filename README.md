@@ -1,1 +1,1 @@
-[HomeTown - Real estate website](https://ansh76.github.io/Home-Town/).
+[HomeTown - Real estate website](https://home-town.netlify.app/).
